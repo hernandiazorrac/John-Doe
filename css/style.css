@@ -414,6 +414,10 @@ footer{
     height: 350px;
 }
 
+.textoProyecto1, .textoProyecto2, .textoProyecto3{
+    text-align: center;
+}
+
     .footer__items li{
         padding: 60px 3px;
         }
