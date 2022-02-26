@@ -52,12 +52,6 @@ body{
     color:grey;
 }
 
-header nav ul{
-    display: flex;
-    list-style: none;
-    margin: 0px 20px 0 0;
-}
-
 .burger{
     display: none;
 }
@@ -134,58 +128,8 @@ header nav ul{
 
 /* SERVICIOS */
 
-.h2Servicios{ /* Título arriba de la tabla */
-    font-weight: lighter;
-    font-size: 40px;
-    margin-top: 4%;
-    text-align: center;
-}
-
-table{
-    position: relative;
-    width: 50%;
-    border-collapse: collapse;
-    border-style: hidden;
-    margin: auto;
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-
-th{
-    height: 50px;
-    padding: 0 15px;
-}
-
-tr{
-    height: 100px;
-}
-
-td{
-    text-align: center;
-}
-
-.tablaHead{ /* Colores de la tabla */
-    background-color: #afafaf;
-}
-
-tbody tr td{
-    padding: 15px;
-}
-
-.tablaBody1{
-    background-color: rgb(219, 219, 219);
-}
-
-.tablaBody2{
-    background-color: rgb(236, 236, 236);
-}
-
-.tablaBody3{
-    background-color: rgb(219, 219, 219);
-}
-
-.tablaBody1:hover, .tablaBody2:hover, .tablaBody3:hover{
-    background-color: rgb(197, 197, 197);
+main h6{
+    margin: 70px 0;
 }
 
 /* QUIÉNES SOMOS */
