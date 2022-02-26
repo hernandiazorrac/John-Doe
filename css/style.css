@@ -91,7 +91,7 @@ body{
 
 /* PROYECTOS */
 
-.proyectosMain{
+/* .proyectosMain{
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
@@ -119,7 +119,7 @@ body{
 
 .proyectosMain img:hover{
     transform: scale(1.05);
-}
+} */
 
 /* .videoProyectos{
     text-align: center;
