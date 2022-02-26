@@ -15,43 +15,47 @@ body{
 
 /* HEADER */
 
-header{
+/* header{
     background-color: rgb(37,37,37);
     display: flex;
     justify-content: space-between;
-}
+} */
 
-header a{
+/* header a{
     text-decoration: none;
     color: inherit;
     color: white;
-}
+} */
 
-.logo{
+.logoImg{
     margin-left: 10px;
     transition: transform 0.3s ease-in-out;
 }
 
-.logo:hover{
+.logoImg:hover{
     transform: rotate(30deg);
 }
 
-.textLogo{
+.textoLogo{
     position: absolute;
     display: inline-block;
-    margin: 20px 0 0 100px;
+    margin: 13px 0 0 20px;
 }
 
 /* NAVBAR */
 
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover{
+    color:grey;
+}
+
 header nav ul{
     display: flex;
     list-style: none;
-    margin: 30px 20px 0 0;
-}
-
-header nav ul li{
-    padding: 0 25px;
+    margin: 0px 20px 0 0;
 }
 
 .burger{
@@ -63,8 +67,8 @@ header nav ul li{
 .cover{
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
+    height: 100vh;
 	animation: gradient 10s ease infinite;
-	height: 100vh;
 }
 
 @keyframes gradient {
@@ -88,7 +92,7 @@ header nav ul li{
     transform: translate(-50%, -50%);
     color: rgb(255, 255, 255);
     font-weight: lighter;
-    font-size: 40px;
+    font-size: 40px; 
 }
 
 /* PROYECTOS */
@@ -329,16 +333,15 @@ footer{
 }
 
 @media (max-width: 1000px){
-    header nav ul li{
-        padding: 0 10px;
-    }
 
     .textLogo{
         position: absolute;
         display: inline-block;
-        margin: 25px 0 0 100px;
+        margin: 20px 0 0 100px;
         font-size: 25px;
     }
+
+    
 
     .footer__items li{
         padding: 60px 10px;
