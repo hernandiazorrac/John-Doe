@@ -50,7 +50,7 @@ body{
 .cover{
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
-    height: 100vh;
+    height: 95vh;
 	animation: gradient 10s ease infinite;
 }
 
@@ -67,11 +67,7 @@ body{
 }
 
 .textCover{
-    position: absolute;
     text-align: center;
-    top:60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     color: rgb(255, 255, 255);
     font-weight: lighter;
     font-size: 40px; 
@@ -101,38 +97,10 @@ main h6{
 
 /* QUIÉNES SOMOS */
 
-/* .quienesSomosMain{
-    display: flex;
-    justify-content: space-around;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.perfil1, .perfil2, .perfil3 {
-    max-width: 250px;
-    max-height: 250px;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(2, 1fr);
-    margin-top: 200px;
-}
-
-.perfilTexto1, .perfilTexto2, .perfilTexto3{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
-}*/
-
 .persona1, .persona2, .persona3{
     height: 250px;
     width: 250px;
 } 
-
-/* .card1, .card2, .card3{
-    padding: 0;
-} */
-
 
 /* CONTACTO */
 
@@ -184,8 +152,8 @@ footer{
     padding: 7px;
     border-radius: 100px;
     height: 60px;
-
 }
+
 
 @media (max-width: 800px){
     .footer__items li{
@@ -211,176 +179,3 @@ footer{
         height: 45px;    
     }
 }
-
-
-/* @media (max-width: 1220px){
-    .proyecto1Container img, .proyecto3Container img {
-        width: 500px;
-        height: 350px;
-        padding-right: 50px;
-    }
-
-    .proyecto2Container img{
-        width: 500px;
-        height: 350px;
-        padding-left: 50px;
-    }
-}
-
-@media (max-width: 1000px){
-
-    .textLogo{
-        position: absolute;
-        display: inline-block;
-        margin: 20px 0 0 100px;
-        font-size: 25px;
-    }
-
-    
-
-    .footer__items li{
-        padding: 60px 10px;
-        }
-
-}
-
-@media (max-width: 900px){
-    .proyectosMain{
-        max-width: 800px;
-        margin: 0 auto;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        
-        gap: 2rem;
-        margin-top: 80px;
-        align-items: center;
-    }
-
-    .imgProyecto1, .imgProyecto2, .imgProyecto3{
-        width: 500px;
-        height: 350px;
-    }
-
-    .proyectosMain div img {
-        width: 500px;
-        height: 350px;
-        display: flex;
-        justify-content: center;
-    }
-
-    .persona1, .persona2, .persona3{
-        height: 150px;
-        object-fit: cover;
-        border-radius: 50%;
-    }
-   
-}
-
-@media (max-width: 800px){
-    header nav ul{
-        display: none;
-    }
-
-    .burger{
-        margin: 2px 10px 0 0;
-        font-size: 50px;
-        display: inline-block;
-    }
-
-    .proyectosMain{
-        max-width: 500px;
-        margin: 0 auto;
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 4rem;
-        margin-top: 80px;
-        margin-bottom: 80px;
-        align-items: center;
-    }
-
-    .footer__items li{
-        padding: 60px 3px;
-        }
-    
-    .facebookIcon, .instagramIcon, .phoneIcon, .mailIcon, .locationIcon{
-        border: 1px solid black;
-        padding: 5px;
-        border-radius: 100px;
-        }
-}
-
-@media (max-width:600px){
-
-    .proyectosMain{
-        max-width: 400px;
-        margin: 0 auto;
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 4rem;
-        margin-top: 80px;
-        margin-bottom: 80px;
-        align-items: center;
-    }
-
-    .imgProyecto1, .imgProyecto2, .imgProyecto3{
-        width: 400px;
-        height: 250px;
-    }
-    
-    .proyectosMain div img{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 400px;
-        height: 250px;
-    }
-
-.quienesSomosMain{
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-}
-
-.persona1, .persona2, .persona3{
-    height: 200px;
-    object-fit: cover;
-    border-radius: 50%;
-}
-
-.perfil1, .perfil2, .perfil3 {
-    max-width: 250px;
-    max-height: 250px;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(2, 1fr);
-    margin: 0 auto;
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-}
-
-@media (max-width:600px){
-    .proyectosMain{
-        max-width: 300px;
-        margin: 0 auto;
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 4rem;
-        margin-top: 80px;
-        margin-bottom: 80px;
-        align-items: center;
-    }
-
-    .imgProyecto1, .imgProyecto2, .imgProyecto3{
-        width: 300px;
-        height: 220px;
-    }
-    
-    .proyectosMain div img{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 300px;
-        height: 220px;
-    }
-} */
