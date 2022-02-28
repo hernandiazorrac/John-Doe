@@ -18,37 +18,45 @@
     <title>Contacto</title>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="margin-bottom: 50px;">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="../index.html">
-                <img src="../assets/img/logo.png" alt="" width="70" height="70" class="d-inline-block align-text-top logoImg">
-                <p class="display-6 textoLogo">John Doe</p>
-              </a>
-        
-            <ul class="nav justify-content-end">
-                <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="../index.html">INICIO</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="../pages/proyectos.html">PROYECTOS</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="../pages/servicios.html">SERVICIOS</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="../pages/quienes-somos.html">QUIÉNES SOMOS</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="../pages/contacto.html">CONTACTO</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-    </header>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">
+            <img src="../assets/img/logo.png" alt="" width="70" height="70" class="d-inline-block align-text-top logoImg">
+            <p class="display-6 textoLogo">John Doe</p>
+          </a>
+
+          <div class="p-2">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+        </div>
+          
+        <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
+          <ul class="navbar-nav ms-auto p-3">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../index.html">INICIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/proyectos.html">PROYECTOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/servicios.html">SERVICIOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-nowrap" href="../pages/quienes-somos.html">QUIÉNES SOMOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/contacto.html">CONTACTO</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+</header>
 
 <main>
-<div class="container">
+<div class="container mt-5">
   <div class="container">
   <form class="row g-3">
     <div class="col-sm-12 col-md-6 col-lg-6">
@@ -97,35 +105,6 @@
 </div>
 </div>
 
-    <!-- <div class="formContacto">
-        <form action="" autocomplete="off">
-            <input type="text" placeholder="Nombre" name="nombre" id="nombre">
-            <input type="text" placeholder="Apellido" name="apellido" id="apellido">
-            <input type="email" placeholder="Email" name="email" id="email">
-            <select name="pais" id="pais">
-                <option value="" disabled selected hidden>País</option>
-                <option value="Argentina">Argentina</option>
-                <option value="Paraguay">Paraguay</option>
-                <option value="Chile">Chile</option>
-                <option value="Uruguay">Uruguay</option>
-                <option value="Colombia">Colombia</option>
-                <option value="Venezuela">Venezuela</option>
-                <option value="Otro">Otro...</option>
-            </select>
-
-            <textarea name="consulta" placeholder="Tu consulta" id="consulta"></textarea>
-                <div class="aceptar">
-                <input type="checkbox" name="aceptar" id="aceptar">
-                <label for="aceptar">Aceptar términos y condiciones</label> 
-                </div>
-
-            <div class="botonesForm">
-                <input type="submit" value="Enviar" id="enviar">
-                <button type="reset" id="limpiar">Limpiar</button>
-            </div>
-            
-        </form>
-    </div> -->
 </main>
     
 <footer style="margin-top: 50px;">
