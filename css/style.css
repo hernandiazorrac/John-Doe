@@ -155,6 +155,26 @@ footer{
 }
 
 
+@media (max-width: 992px){
+    .textoProyectos{
+    margin-bottom: 40px;
+    }
+
+    .imgProyectos img:hover{
+        transform: scale(1);
+    }
+}
+
+@media (max-width: 768px){
+    .textoProyectos{
+        margin-top: -25px;
+        }
+
+    .imgProyectos img:hover{
+        transform: scale(1);
+    }
+}
+
 @media (max-width: 800px){
     .footer__items li{
         padding: 60px 3px;
