@@ -1,201 +1,215 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-html{
-    font-family: 'Roboto', sans-serif;
-    overflow-x: hidden;
+html {
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
 }
 
-html::-webkit-scrollbar{
-        display: none;
+html::-webkit-scrollbar {
+  display: none;
 }
 
-body{
-    min-height: 100vh; /* mantiene el footer pegado al fondo cuando no hay suficiente contenido */
-    background-color: whitesmoke;
+body {
+  min-height: 100vh; /* mantiene el footer pegado al fondo cuando no hay suficiente contenido */
+  background-color: whitesmoke;
 }
 
 /* HEADER */
 
-.logoImg{
-    margin-top: -10px;
-    margin-left: 10px;
-    transition: transform 0.3s ease-in-out;
+.logoImg {
+  margin-top: -10px;
+  margin-left: 10px;
+  transition: transform 0.3s ease-in-out;
 }
 
-.logoImg:hover{
-    transform: rotate(30deg);
+.logoImg:hover {
+  transform: rotate(30deg);
 }
 
-.textoLogo{
-    position: absolute;
-    display: inline-block;
-    margin: 3px 0 0 20px;
+.textoLogo {
+  position: absolute;
+  display: inline-block;
+  margin: 3px 0 0 20px;
 }
 
 /* NAVBAR */
 
 .nav-link {
-    color: white;
+  color: white;
 }
 
-.nav-link:hover{
-    color:grey;
+.nav-link:hover {
+  color: grey;
 }
 
 /* MAIN */
 
-.cover{
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-	background-size: 400% 400%;
-    height: 95vh;
-	animation: gradient 10s ease infinite;
+.cover {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  height: 95vh;
+  animation: gradient 10s ease infinite;
 }
 
 @keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
-.textCover{
-    text-align: center;
-    color: rgb(255, 255, 255);
-    font-weight: lighter;
-    font-size: 40px; 
-    margin-bottom: 0;
+.textCover {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-weight: lighter;
+  font-size: 40px;
+  margin-bottom: 0;
 }
 
 /* PROYECTOS */
 
-.imgProyectos{
-    overflow: hidden;
+.imgProyectos {
+  overflow: hidden;
 }
 
-.imgProyectos img{
-    transition: transform 0.3s ease-in-out;
+.imgProyectos img {
+  transition: transform 0.3s ease-in-out;
 }
 
-.imgProyectos img:hover{
-transform: scale(1.05);
-cursor: pointer;
+.imgProyectos img:hover {
+  transform: scale(1.05);
+  cursor: pointer;
 }
 
 /* SERVICIOS */
 
-main h6{
-    margin: 70px 0;
+main h6 {
+  margin: 70px 0;
 }
 
 /* QUIÉNES SOMOS */
 
-.persona1, .persona2, .persona3{
-    height: 250px;
-    width: 250px;
-} 
+.persona1,
+.persona2,
+.persona3 {
+  height: 250px;
+  width: 250px;
+}
 
 /* CONTACTO */
 
 .form-select:focus,
-.form-control:focus{
-    box-shadow: none;
-  }
-
-.form-check-input:focus{
-    box-shadow: none;
-    border-color: lightgrey;
+.form-control:focus {
+  box-shadow: none;
 }
 
- .form-check-input:checked{
-    box-shadow: none;
-    background-color: rgba(37, 37, 37, 0.8);
-    border-color: lightgrey;
-  }
+.form-check-input:focus {
+  box-shadow: none;
+  border-color: lightgrey;
+}
+
+.form-check-input:checked {
+  box-shadow: none;
+  background-color: rgba(37, 37, 37, 0.8);
+  border-color: lightgrey;
+}
 
 .form-select:focus,
-.form-control:focus{
+.form-control:focus {
   border-color: rgba(37, 37, 37, 0.8);
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(37, 37, 37, 0.6);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset,
+    0 0 8px rgba(37, 37, 37, 0.6);
 }
 
 /* FOOTER */
 
-footer{
-    position: sticky;
-    top:100%;
-    height: 180px;
-    width: 100vw;
-    text-align: center;
-    background-color: rgb(218, 218, 218);
+footer {
+  position: sticky;
+  top: 100%;
+  height: 180px;
+  width: 100vw;
+  text-align: center;
+  background-color: rgb(218, 218, 218);
 }
 
-.footer__items{
-    padding-left: 0;
-    margin-bottom: 0;
+.footer__items {
+  padding-left: 0;
+  margin-bottom: 0;
 }
 
-.footer__items li{
-    display: inline-block;
-    padding: 60px 15px;
+.footer__items li {
+  display: inline-block;
+  padding: 60px 15px;
 }
 
-.facebookIcon, .instagramIcon, .phoneIcon, .mailIcon, .locationIcon{
-    border: 1px solid black;
-    padding: 7px;
-    border-radius: 100px;
-    height: 60px;
+.facebookIcon,
+.instagramIcon,
+.phoneIcon,
+.mailIcon,
+.locationIcon {
+  border: 1px solid black;
+  padding: 7px;
+  border-radius: 100px;
+  height: 60px;
 }
 
-
-@media (max-width: 992px){
-    .textoProyectos{
+@media (max-width: 992px) {
+  .textoProyectos {
     margin-bottom: 40px;
-    }
+  }
 
-    .imgProyectos img:hover{
-        transform: scale(1);
-    }
+  .imgProyectos img:hover {
+    transform: scale(1);
+  }
 }
 
-@media (max-width: 768px){
-    .textoProyectos{
-        margin-top: -25px;
-        }
+@media (max-width: 768px) {
+  .textoProyectos {
+    margin-top: -25px;
+  }
 
-    .imgProyectos img:hover{
-        transform: scale(1);
-    }
+  .imgProyectos img:hover {
+    transform: scale(1);
+  }
 }
 
-@media (max-width: 800px){
-    .footer__items li{
-        padding: 60px 3px;
-        }
-    
-    .facebookIcon, .instagramIcon, .phoneIcon, .mailIcon, .locationIcon{
-        border: 1px solid black;
-        padding: 5px;
-        border-radius: 100px;
-        }
+@media (max-width: 800px) {
+  .footer__items li {
+    padding: 60px 3px;
+  }
+
+  .facebookIcon,
+  .instagramIcon,
+  .phoneIcon,
+  .mailIcon,
+  .locationIcon {
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 100px;
+  }
 }
 
-@media (max-width: 500px){
-    .footer__items li{
-        padding: 60px 3px;
-        }
-    
-    .facebookIcon, .instagramIcon, .phoneIcon, .mailIcon, .locationIcon{
-        border: 1px solid black;
-        padding: 5px;
-        border-radius: 100px;
-        height: 45px;    
-    }
+@media (max-width: 500px) {
+  .footer__items li {
+    padding: 60px 3px;
+  }
+
+  .facebookIcon,
+  .instagramIcon,
+  .phoneIcon,
+  .mailIcon,
+  .locationIcon {
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 100px;
+    height: 45px;
+  }
 }
