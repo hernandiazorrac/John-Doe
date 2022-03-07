@@ -1,0 +1,32 @@
+.imgProyectos {
+    overflow: hidden;
+
+        img {
+        transition: transform 0.3s ease-in-out;
+
+        &:hover {
+            transform: scale(1.05);
+            cursor: pointer;
+          }
+      }
+  }
+
+  @media (max-width: $lg) {
+    .textoProyectos {
+      margin-bottom: 40px;
+    }
+  
+    .imgProyectos img:hover {
+      transform: scale(1);
+    }
+  }
+
+  @media (max-width: $md) {
+    .textoProyectos {
+      margin-top: -25px;
+    }
+  
+    .imgProyectos img:hover {
+      transform: scale(1);
+    }
+  }

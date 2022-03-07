@@ -1,0 +1,16 @@
+//sólo imports
+@import "./partials/variables";
+@import "./partials/global";
+@import "./partials/header";
+@import "./partials/navbar";
+@import "./partials/forms";
+@import "./partials/footer";
+
+//INICIO
+@import "./pages/index";
+
+//PROYECTOS
+@import "./pages/proyectos";
+
+//SERVICIOS
+@import "./pages/servicios";

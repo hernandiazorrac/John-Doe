@@ -1,0 +1,18 @@
+.form-select:focus,
+.form-control:focus {
+  box-shadow: none;
+  border-color: rgba(37, 37, 37, 0.8);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset,
+    0 0 8px rgba(37, 37, 37, 0.6);
+}
+
+.form-check-input:focus {
+  box-shadow: none;
+  border-color: lightgrey;
+}
+
+.form-check-input:checked {
+  box-shadow: none;
+  background-color: rgba(37, 37, 37, 0.8);
+  border-color: lightgrey;
+}

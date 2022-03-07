@@ -1,0 +1,15 @@
+.logoImg {
+    margin-top: -10px;
+    margin-left: 10px;
+    transition: transform 0.3s ease-in-out;
+
+    &:hover {
+        transform: rotate(30deg);
+      }
+  }
+  
+  .textoLogo {
+    position: absolute;
+    display: inline-block;
+    margin: 3px 0 0 20px;
+  }
