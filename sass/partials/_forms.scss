@@ -1,9 +1,14 @@
-.form-select:focus,
-.form-control:focus {
+@mixin form-select-control-focus {
   box-shadow: none;
   border-color: rgba(37, 37, 37, 0.8);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset,
     0 0 8px rgba(37, 37, 37, 0.6);
+}
+
+.form-select:focus,
+.form-control:focus {
+  @include form-select-control-focus;
+  border-color: lightgrey;
 }
 
 .form-check-input:focus {
@@ -12,7 +17,37 @@
 }
 
 .form-check-input:checked {
-  box-shadow: none;
+  @extend .form-check-input:focus;
   background-color: rgba(37, 37, 37, 0.8);
-  border-color: lightgrey;
+}
+
+
+$mapButtons:(
+  botonLimpiar: #ffc107,
+  botonEnviar: #198754
+);
+
+$botonLimpiar: map-get($mapButtons, botonLimpiar);
+$botonEnviar: map-get($mapButtons, botonEnviar);
+
+.botonLimpiar{
+  background-color: $botonLimpiar;
+  &:hover{
+    background-color: #FFCA2C;
+  }
+  &:focus{
+    box-shadow: none;
+  }
+}
+
+.botonEnviar{
+  background-color: $botonEnviar;
+  color: white;
+  &:hover{
+    background-color: #157347;
+    color: white;
+  }
+  &:focus{
+    box-shadow: none;
+  }
 }
