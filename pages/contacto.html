@@ -66,27 +66,24 @@
     <div class="container">
       <form class="row g-3">
         <div class="col-sm-12 col-md-6 col-lg-6">
-          <label for="inputNombre4" class="form-label">Nombre</label>
-            <input type="input" class="form-control" id="inputNombre4">
+          <label for="inputNombre4" class="form-label">Nombre *</label>
+            <input type="input" class="form-control" id="inputNombre4" required>
     </div>
     <div class="col-sm-12 col-md-6 col-lg-6">
       <label for="inputApellido4" class="form-label">Apellido</label>
       <input type="input" class="form-control" id="inputApellido4">
     </div>
     <div class="col-sm-12 col-md-6 col-lg-6">
-      <label for="inputEmail4" class="form-label">Email</label>
-      <input type="email" class="form-control" id="inputEmail4">
+      <label for="inputEmail4" class="form-label">Email *</label>
+      <input type="email" class="form-control" id="inputEmail4" required>
     </div>
 
     <div class="col-sm-12 col-md-6 col-lg-6">
-      <label for="inputState" class="form-label">País</label>
+      <label for="inputState" class="form-label">Asunto</label>
       <select id="inputState" class="form-select">
-        <option>Argentina</option>
-        <option>Paraguay</option>
-        <option>Chile</option>
-        <option>Uruguay</option>
-        <option>Colombia</option>
-        <option>Venezuela</option>
+        <option>Solicitud de presupuesto</option>
+        <option>Consulta</option>
+        <option>Sugerencia</option>
       </select>
     </div>
  
@@ -96,11 +93,15 @@
 
     <div class="col-12">
       <div class="form-check">
-        <input class="form-check-input" type="checkbox" id="gridCheck">
+        <input class="form-check-input" type="checkbox" id="gridCheck" required>
         <label class="form-check-label" for="gridCheck">
           Acepto términos y condiciones.
         </label>
       </div>
+    </div>
+
+    <div>
+      <p>Los campos con * son obligatorios.</p>
     </div>
 
     <div class="col-12">
