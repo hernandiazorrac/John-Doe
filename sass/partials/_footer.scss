@@ -13,18 +13,24 @@ footer {
         li {
             display: inline-block;
             padding: 60px 15px;
+
+            div{
+              border: 1px solid black;
+              border-radius: 100px;
+              overflow: hidden;
+            }
         }
       }
 
-    .facebookIcon,
-    .instagramIcon,
-    .phoneIcon,
-    .mailIcon,
-    .locationIcon {
-    border: 1px solid black;
+    .facebookIcon, .instagramIcon, .phoneIcon, .mailIcon, .locationIcon {
     padding: 7px;
-    border-radius: 100px;
     height: 60px;
+    transition: transform 0.2s ease-in-out;
+    
+
+    &:hover {
+      transform: scale(1.3);
+}
       }
   }
 
