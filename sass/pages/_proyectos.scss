@@ -10,23 +10,20 @@
           }
       }
   }  
-
-
-.buttonProyectos{
-  &:hover{
-    cursor: default;
-  }
   
-  &:focus{
-      box-shadow: none;
-      background-color: #6c757d;
-      border-color: #6c757d;
-  }
+.buttonProyectos:hover{
+  cursor: default;
+}
 
-  &:active:focus{
-    box-shadow: none;
-    background-color: #5C636A;
-  }
+.buttonProyectos:focus{
+  box-shadow: none;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.buttonProyectos:active:focus{
+  box-shadow: none;
+  background-color: #5C636A;
 }
 
   @media (max-width: $lg) {
