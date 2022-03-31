@@ -11,6 +11,24 @@
       }
   }  
 
+
+.buttonProyectos{
+  &:hover{
+    cursor: default;
+  }
+  
+  &:focus{
+      box-shadow: none;
+      background-color: #6c757d;
+      border-color: #6c757d;
+  }
+
+  &:active:focus{
+    box-shadow: none;
+    background-color: #5C636A;
+  }
+}
+
   @media (max-width: $lg) {
     .textoProyectos {
       margin-bottom: 40px;
